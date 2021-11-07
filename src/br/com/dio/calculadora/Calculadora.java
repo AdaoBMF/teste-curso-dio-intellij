@@ -15,22 +15,25 @@ public class Calculadora {
     double subtracao = subtrair(a, b);
     double multiplicacao = multiplicar(a, b);
     double divisao = dividir(a, b);
-    System.out.println("soma: "+soma);
-    System.out.println("subtração: "+subtracao);
-    System.out.println("multiplicação: "+multiplicacao);
-    System.out.println("divisão: "+ divisao);
+    System.out.println("soma: " + soma);
+    System.out.println("subtração: " + subtracao);
+    System.out.println("multiplicação: " + multiplicacao);
+    System.out.println("divisão: " + divisao);
   }
 
-  public static double somar (double a, double b) {
+  public static double somar(double a, double b) {
     return a + b;
   }
-  public static double subtrair (double a, double b) {
+
+  public static double subtrair(double a, double b) {
     return a - b;
   }
-  public static double multiplicar (double a, double b) {
+
+  public static double multiplicar(double a, double b) {
     return a * b;
   }
-  public static double dividir (double a, double b) {
+
+  public static double dividir(double a, double b) {
     return a / b;
   }
 
